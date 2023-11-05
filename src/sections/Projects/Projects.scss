@@ -1,0 +1,40 @@
+.my-projects{
+    width: 75%;
+    margin: 300px auto;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 3px;
+
+    span{
+        color: #CCCCCC;
+        font-size: 12px;
+        font-weight: 800;
+    }
+
+    h2{
+        color: white;
+        text-align: left;
+        letter-spacing: 1px;
+        font-size: 44px;
+    }
+
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 70px;
+        margin-top: 50px;
+        justify-content: center;
+    }
+}
+
+
+@media(max-width: 768px){
+    
+    .my-projects{
+
+        h2{
+
+            font-size: 28px;
+        }
+    }
+}

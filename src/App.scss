@@ -1,0 +1,10 @@
+body{
+    background-color: RGB(0, 0, 0);
+    border: 2x solid white;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    min-width: 375px;
+}

@@ -1,0 +1,153 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+
+    span{
+        color: #CCCCCC;
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 3px;
+        text-align: right;
+    }
+
+    h2{
+        color: white;
+        font-size: 32px;
+        text-align: right;
+
+        span{
+            font-size: 32px;
+        }
+    }
+
+    .form{
+        margin: 50px auto;
+        width: 80%;
+
+        p{
+            color: #9E9E9E;
+            letter-spacing: 2px;
+            font-size: 18px;
+            text-align: center;
+            line-height: 2;
+        }
+
+        .fields{
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            margin-top: 150px;
+            width: 80%;
+
+            label{
+                color: #494F53;
+                font-size: 14px;
+            }
+
+            .name-email{
+                display: flex;
+                justify-content: space-between;
+                
+                
+                .infos{
+                    display: flex;
+                    flex-direction: column;
+                    margin: auto;
+                    width: 40%;
+                    
+                    input{
+                        background-color: black;
+                        border: none;
+                        border-bottom: 1px solid white;
+                        height: 35px;
+                        font-size: 16px;
+                        color: white;
+
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                }
+            }
+
+            .message{
+                width: 90%;
+                margin: 100px auto;
+
+                textarea{
+                    background-color: black;
+                    width: 100%;
+                    border: none;
+                    border-bottom: 1px solid white;
+                    height: 60px;
+                    font-size: 16px;
+                    margin: 10px auto;
+                    color: white;
+                    line-height: 1.6;
+
+                    &:focus{
+                        outline: none;
+                    }
+                }
+            }
+        }
+
+        button{
+            height: 50px;
+            width: 170px;
+            background: linear-gradient(to top, #864BA2, #BF3A30);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: rgba(0,0,0,0);
+            letter-spacing: 1px;
+            border: 1px solid transparent;
+            border-image: linear-gradient(135deg, #864BA2, #BF3A30) 1;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            font-size: 12px;
+            margin: auto;
+
+            &:hover{
+                transform: scale(1.1);
+                background: linear-gradient(to top, #2C1C46, #2A1A1A);
+                -webkit-text-fill-color: white;
+                cursor: crosshair;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px){
+    
+    .contact{
+        h2{
+            font-size: 24px;
+    
+            span{
+                font-size: 24px;
+            }
+        }
+
+        .form{
+            
+            p{
+                font-size: .9rem;
+            }
+
+            .fields{
+                justify-content: center;
+                
+                .name-email{
+                    flex-direction: column;
+               
+                    gap: 100px;
+
+                    .infos{
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+}
