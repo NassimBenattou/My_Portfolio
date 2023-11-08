@@ -26,7 +26,7 @@ export default function Contact() {
   return (
     <div className='contact'>
         <span>- CONTACTEZ MOI</span>
-        <h2><span>🚀</span>  N'hésitez pas</h2>
+        <h2><span role="img" aria-label="fusée">🚀</span>  N'hésitez pas</h2>
         <div className='form'>
             <p>Vous avez une question, une proposition, un projet ou souhaitez collaborer sur un projet ?<br /> N'hésitez pas à me contacter.</p>
             <form className='fields' onSubmit={handleSubmit}>
