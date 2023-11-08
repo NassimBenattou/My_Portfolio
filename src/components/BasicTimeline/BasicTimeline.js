@@ -18,7 +18,7 @@ export default function BasicTimeline(props) {
     return (
         <>
             <div style={{ display: props.handleSelected && "none"}}>
-                <Timeline>
+                <Timeline className='container-timeline'>
                     <TimelineItem>
                         <TimelineSeparator>
                         <TimelineDot className='TimelineDot' />

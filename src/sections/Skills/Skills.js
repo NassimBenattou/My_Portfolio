@@ -53,7 +53,9 @@ export default function Skills() {
                     Formations
                 </div>
             </div>
-            <BasicTimeline handleSelected={selected} className="basic-timeline" />
+            <div className='container-timeline'>
+                <BasicTimeline handleSelected={selected} className="basic-timeline" />  
+            </div>
         </div>
     </div>
     )
