@@ -55,7 +55,6 @@
         width: 50%;
         margin: auto;
         margin-top: 20px;
-        width: 60%;
         
         .nav-xp{
     
@@ -89,6 +88,13 @@
 
         .css-ha3bif-MuiTimelineItem-root:before{
             display: none;
+        }
+
+        .css-1rcbby2::before {
+            display: none;
+            content: "";
+            flex: 1 1 0%;
+            padding: 6px 16px;
         }
     }
 }
