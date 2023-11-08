@@ -1,0 +1,34 @@
+.TimelineDot{
+    background: linear-gradient(to top, #864BA2, #BF3A30) !important;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+.xp{
+    color: #E4E4E5;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+
+    .date{
+        background: linear-gradient(to top, #864BA2, #BF3A30);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .diplome{
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    .corp{
+        background: linear-gradient(to top, #864BA2, #BF3A30);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}

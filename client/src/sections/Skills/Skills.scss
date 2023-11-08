@@ -1,0 +1,159 @@
+.skills{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    margin-top: 500px;
+
+    .title{
+        margin: auto;
+
+        h2{
+            color: white;
+            font-size: 2.3rem;
+            letter-spacing: 2px;
+        }
+        
+        span{
+            background: linear-gradient(to top, #864BA2, #BF3A30);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 36px;
+            text-align: center;
+        }
+    }
+
+    .desc{
+        width: 60%;
+        margin: 75px auto;
+
+        p{  
+            color: #E4E4E5;
+            margin: 0 auto;
+            font-family: "Open Sans", sans-serif;
+            letter-spacing: 2px;
+            font-size: .9rem;
+
+            line-height: 2;
+            width: 90%;
+            text-align: center;
+        }
+    }
+
+    .techno{
+        padding-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 50%;
+        gap: 50px;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    .timeline{
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
+        
+        .nav-xp{
+    
+            display: flex;
+            gap: 50px;
+            width: 45%;
+            margin-top: 150px;
+    
+            div{
+                margin-left: 20px;
+                background: linear-gradient(to top, #864BA2, #BF3A30);
+                -webkit-background-clip: text;
+                color: transparent;
+                font-size: 24px;
+                text-align: center;
+                cursor: crosshair;
+    
+                &:hover{
+                    color: #864BA2;
+                }
+            }
+        }
+
+        ul{
+            margin: 50px;
+
+            li{
+                margin-top: 10px;
+            }
+        }
+
+        .css-ha3bif-MuiTimelineItem-root:before{
+            display: none;
+        }
+    }
+}
+
+@media(max-width: 1024px){
+    
+    .skills{
+
+        .desc{
+            width: 80%;
+
+            p{
+                font-size: .9rem;
+            }
+        }
+
+        .techno{
+            width: 80%;
+        }
+
+        .timeline{
+            width: 80%;
+            font-size: 12px;
+            
+            ul{
+                .MuiTimelineContent-root{
+                    font-size: .9rem;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 768px){
+    
+    .skills{
+
+        .title{
+
+            h2, span{
+                font-size: 24px;
+            }
+        }
+
+        .desc{
+            width: 90%;
+
+            p{
+                font-size: .8rem;
+            }
+        }
+
+        .techno{
+            width: 90%;
+        }
+
+        .timeline{
+            width: 100%;
+
+            ul{
+                
+                .MuiTimelineContent-root{
+                    font-size: .75rem;
+                }
+            }
+        }
+    }
+}
+

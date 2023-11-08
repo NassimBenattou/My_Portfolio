@@ -1,0 +1,32 @@
+.skill-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+    padding: 5px 15px;
+    width: 50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: .75rem;
+    
+
+    &:before {
+        content: '';
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        border: 1px solid #864BA2;
+        border-radius: 30px;
+        animation: neon 1s infinite alternate-reverse;
+      }
+  
+}
+@keyframes neon {
+    0% {
+        box-shadow: 0 0 2px #864BA2, 0 0 4px #864BA2, 0 0 6px #864BA2;
+    }
+    100% {
+        box-shadow: 0 0 10px #864BA2, 0 0 8px #864BA2, 0 0 12px #864BA2;
+    }
+}

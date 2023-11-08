@@ -1,0 +1,45 @@
+@import url(https://db.onlinewebfonts.com/c/0923ee644c97a87d70269aa80a6f1e79?family=The+Historia+Demo);
+
+.name{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0B0B0F;
+
+    h1{
+        margin: 0 auto;
+        font-family: "The Historia Demo";
+        font-size: 9rem;
+        padding: 1rem;
+        background: linear-gradient(to top, #864BA2, #BF3A30);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: rgba(0,0,0,0);
+        letter-spacing: 1px;
+    }
+
+    p{  
+        margin: 0 auto;
+        color: #E4E4E5;
+        font-family: "Open Sans", sans-serif;
+        letter-spacing: 2px;
+        max-width: 80%;
+        font-size: 14px;
+        line-height: 2;
+        text-align: center;
+    }
+}
+
+
+@media(max-width: 768px){
+    .name{
+        h1{
+            font-size: 4rem;
+        }
+
+        p{
+            font-size: 12px;
+        }
+    }
+}
